@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CART" directorySegmentName="seg_0" id="EC359D4E-EDD8-A6B9-6C9C-E408C0B3691C">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<schemaObject>AA559746-59E4-471D-71BB-49F989F0C16A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>35E6D254-CF9E-0F60-2385-D37BB0F1F491</segment>
+<tableSpace>6EB5ADF7-9D8D-001A-BED6-9452A709EDF0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CART_NO" id="01D7F9B0-8D2F-CFDD-8812-A7B053138BE8">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_NO" id="0F802AF2-0FDF-BD53-3D18-0B7141D96B5F">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADD_SALE" id="35ED63FD-F62E-D04A-19A3-48BA81395C2C">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGI_DATE" id="378E8553-6757-F2E6-D591-627B16D8C693">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VOLUME_ORDER" id="CE4B78E2-8F32-7672-DB80-77ECC64F5ED2">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMBER_NO" id="FD645110-7829-3D2A-E2DD-C2E35E7E8042">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008666" id="0725658F-A72A-4B48-FC5D-65CEAA74DE46">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008665" id="DC6FFE48-D5E3-6EB5-7B47-95F3C5CDE269">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CART_PK" id="64D16C79-41FB-ADF6-EE0A-DF8359EBD86C">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<schemaObject>AA559746-59E4-471D-71BB-49F989F0C16A</schemaObject>
+<segment>86DACF92-3DF8-BEB6-7153-485EB03AF526</segment>
+<tableSpace>6EB5ADF7-9D8D-001A-BED6-9452A709EDF0</tableSpace>
+<indexSegment>86DACF92-3DF8-BEB6-7153-485EB03AF526</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

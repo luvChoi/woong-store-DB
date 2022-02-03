@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUCTTYPE" directorySegmentName="seg_0" id="30612FDC-900B-3837-F361-A88A989CD0F4">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<schemaObject>AA559746-59E4-471D-71BB-49F989F0C16A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>35E6D254-CF9E-0F60-2385-D37BB0F1F491</segment>
+<tableSpace>6EB5ADF7-9D8D-001A-BED6-9452A709EDF0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRODUCT_TYPE" id="46FB23C9-9ACC-435B-94A4-C2F85B93DCC6">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO" id="A444FD2F-8324-505B-ABC9-90D460E9F97B">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCTTYPE_PK" id="359767B7-50B2-24C1-6842-EA4A67C09FD3">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<schemaObject>AA559746-59E4-471D-71BB-49F989F0C16A</schemaObject>
+<segment>86DACF92-3DF8-BEB6-7153-485EB03AF526</segment>
+<tableSpace>6EB5ADF7-9D8D-001A-BED6-9452A709EDF0</tableSpace>
+<indexSegment>86DACF92-3DF8-BEB6-7153-485EB03AF526</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PRODUCTTYPE_PRODUCT_TYPE_UN" id="33493B05-320D-D82E-D0D9-B1480CBFF5F6">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<schemaObject>AA559746-59E4-471D-71BB-49F989F0C16A</schemaObject>
+<segment>86DACF92-3DF8-BEB6-7153-485EB03AF526</segment>
+<tableSpace>6EB5ADF7-9D8D-001A-BED6-9452A709EDF0</tableSpace>
+<indexSegment>86DACF92-3DF8-BEB6-7153-485EB03AF526</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ADMIN" directorySegmentName="seg_0" id="A25EB599-7D3E-5D8C-44A5-7E94DF2E39BE">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<schemaObject>AA559746-59E4-471D-71BB-49F989F0C16A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>35E6D254-CF9E-0F60-2385-D37BB0F1F491</segment>
+<tableSpace>6EB5ADF7-9D8D-001A-BED6-9452A709EDF0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="4B1110DB-A494-153B-4DA5-CA8E8B21DE26">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEP_NAME" id="538C31A1-DDD6-EC8F-2AAB-A42D59817813">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="682DF764-BD87-FBD7-F0AF-9C5E864E1C6E">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPD_DATE" id="6D19347F-1EC7-BF53-37DA-56BB6A6F8EB2">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PASSWD" id="6EF25F3C-8038-F9C0-2FA7-606D3F19ACD0">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO" id="87FB58DC-BF0E-7DC1-E560-B5431FC40CA2">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGI_DATE" id="9FD037BB-D766-5E10-BCCD-DCDDCF48A768">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="AED09774-FC2C-8322-D288-819EBAFEAA5D">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LEVEL_STAFF" id="C4219F6A-BFC4-322E-EECB-37BB004C775F">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTHORITY" id="EF1A66E7-6CA1-A587-571F-4C8F6D75B620">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<defaultValue>&apos;일반&apos;</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ADMIN_PK" id="BD0540A4-BECC-AB50-8ED3-3AC9DA0FBFDC">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<schemaObject>AA559746-59E4-471D-71BB-49F989F0C16A</schemaObject>
+<segment>86DACF92-3DF8-BEB6-7153-485EB03AF526</segment>
+<tableSpace>6EB5ADF7-9D8D-001A-BED6-9452A709EDF0</tableSpace>
+<indexSegment>86DACF92-3DF8-BEB6-7153-485EB03AF526</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="ADMIN_NO_UN" id="D7C6B614-077B-73FF-7641-56C935D9FE6E">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<schemaObject>AA559746-59E4-471D-71BB-49F989F0C16A</schemaObject>
+<segment>86DACF92-3DF8-BEB6-7153-485EB03AF526</segment>
+<tableSpace>6EB5ADF7-9D8D-001A-BED6-9452A709EDF0</tableSpace>
+<indexSegment>86DACF92-3DF8-BEB6-7153-485EB03AF526</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

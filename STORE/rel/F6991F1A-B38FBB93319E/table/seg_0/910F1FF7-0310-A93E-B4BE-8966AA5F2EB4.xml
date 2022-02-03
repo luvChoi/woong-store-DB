@@ -1,0 +1,265 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="910F1FF7-0310-A93E-B4BE-8966AA5F2EB4" schemaObject="AA559746-59E4-471D-71BB-49F989F0C16A" name="ORDERTB">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>WOONG_SHOP</sourceObjSchema>
+<sourceObjName>ORDERTB</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_NO" id="8D550715-4E85-2D67-6375-64D0F5239EBB">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>ORDER_NO</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_PRODUCT_NO" id="A7A33658-5809-3887-D69F-D604B7E11A95">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>ORDER_PRODUCT_NO</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_NO" id="A642124E-60B4-E606-2BE2-D6AB6EC664D1">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>MEMBER_NO</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20FB01BF-C982-0460-D58C-A182BC342048" referredColumn="E0FF6325-2E95-3113-EF0E-A6F6F3EBED7B"/>
+</associations>
+</Column>
+<Column name="PRODUCT_NO" id="D08D9017-997D-4780-5CCE-8BC683D63979">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>PRODUCT_NO</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF232CAB-66D5-1E34-F36D-1DA2FFD66B23" referredColumn="A020C47E-9188-9BD7-5D42-B8D4C7EBAE6B"/>
+</associations>
+</Column>
+<Column name="VOLUME_ORDER" id="C507BECD-2027-6727-8F7A-8D85610C7E78">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>VOLUME_ORDER</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_SALE" id="BAC68BF6-A498-D4AE-AACC-40484CAB082D">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>ADD_SALE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="C3ABAB24-10EF-5D8E-9394-BFA8293C9828">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="2F8A7573-A88A-A803-22E2-A5220A3102C0">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_NO" id="B891C2DC-3E16-8B81-2B39-010AD7F609A7">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>ADDR_NO</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR1" id="9E927C26-111B-C833-07E1-2AF11A6481B5">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>ADDR1</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR2" id="07D2A83B-CD46-B030-7B7C-EC58A397B21D">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>ADDR2</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR3" id="7C8B0242-BD41-5FAC-6CCC-A6B7A4C25587">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>ADDR3</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUEST_TERM" id="7E810A73-1908-2641-C3A7-8BE36F5D9F49">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>REQUEST_TERM</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="1CA8073A-20F6-84E7-09CE-522301B7AE3A">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<defaultValue>&apos;결제완료&apos;</defaultValue>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DATE" id="7BD1EDAE-6435-B888-8796-F7DCDE868CE6">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>ORDERTB</sourceObjSchema>
+<sourceObjName>ORDER_DATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9258629-2A82-B549-F9D3-5B5F6EC05DA4" schemaObject="AA559746-59E4-471D-71BB-49F989F0C16A" name="ORDERTB_PK">
+<sourceConnName>local_woong_shop</sourceConnName>
+<sourceObjSchema>WOONG_SHOP</sourceObjSchema>
+<sourceObjName>SYS_C008834</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7A33658-5809-3887-D69F-D604B7E11A95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98AE5B88-BBC2-9B89-A55A-C6323C30527F" name="SYS_C008835">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A642124E-60B4-E606-2BE2-D6AB6EC664D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FAAA9EA-2FA7-7A60-851B-133118BDB560" name="SYS_C008836">
+<createdBy>user</createdBy>
+<createdTime>2022-02-03 17:51:22 UTC</createdTime>
+<ownerDesignName>STORE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D08D9017-997D-4780-5CCE-8BC683D63979"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
